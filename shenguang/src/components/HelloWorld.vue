@@ -40,8 +40,8 @@ export default {
   a {
     color: #42b983;
   }
-
-  .code a {
+  .code {
+    cursor: pointer;
     font-size: 14px;
     line-height: 40px;
     color: #666666;
