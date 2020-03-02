@@ -19,12 +19,6 @@
 
 <script>
     export default {
-      props: {
-        dialogVisible: {
-          type: Boolean,
-          default: false
-        }
-      },
       data() {
         return {}
       },
