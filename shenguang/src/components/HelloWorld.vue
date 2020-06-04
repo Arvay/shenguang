@@ -2,6 +2,9 @@
   <div class="hello">
     <img style="width: 100%" src="./img/01.png" alt="">
     <div class="code" @click="open">沪ICP备19026161号-1</div>
+    <div class="code" @click="open2">隐私声明</div>
+    <div class="yinsi">
+    </div>
   </div>
 </template>
 
@@ -14,6 +17,9 @@ export default {
     }
   },
   methods: {
+    open2 () {
+      this.$router.push({path: '/ys'})
+    },
     open () {
       window.open('http://www.beian.miit.gov.cn')
     }
@@ -23,6 +29,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  .yinsi {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    height: 100px;
+    width: 100px;
+  }
   h1, h2 {
     font-weight: normal;
   }
