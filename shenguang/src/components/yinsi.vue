@@ -18,15 +18,15 @@
 </template>
 
 <script>
-    export default {
-      data() {
-        return {}
-      },
-      created: function () {
-      },
-      methods: {},
-      components: {}
-    }
+export default {
+  data () {
+    return {}
+  },
+  created: function () {
+  },
+  methods: {},
+  components: {}
+}
 </script>
 <style scoped>
 </style>
